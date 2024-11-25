@@ -27,7 +27,7 @@ const Offer = () => {
       </div>
 
       {/* Image */}
-      <div className="w-[370px] lg:w-[427px] h-[369px] lg:h-[450px]">
+      <div className="w-[360px] lg:w-[427px] h-[369px] lg:h-[450px]">
         <Image
           src="/offer.png"
           height={800}
