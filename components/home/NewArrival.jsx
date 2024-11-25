@@ -15,7 +15,7 @@ const NewArrival = () => {
             New Arrivals
           </p>
         </div>
-        <div className="hidden md:flex items-center lg:mr-4">
+        <div className="flex items-center lg:mr-4">
           <FontAwesomeIcon
             icon={faArrowLeft}
             className="bg-white border border-primary text-primary rounded-full p-2 mx-2 cursor-pointer"
