@@ -16,7 +16,7 @@ const ProductPage = () => {
       <div className="flex flex-col lg:flex-row px-4 lg:px-28 lg:pt-4 gap-6">
         <ImageGallery />
         <ProductDescription />
-        <div className="absolute w-[100px] h-[100px] hidden lg:flex lg:top-72 lg:-right-1 bg-[#581FC1] text-white py-4 px-4 rounded-tl-[16px] rounded-bl-[16px] flex-col  items-center">
+        <div className="absolute w-[100px] h-[100px] hidden lg:flex lg:top-[276px] lg:-right-0 bg-[#581FC1] text-white py-4 px-4 rounded-tl-[16px] rounded-bl-[16px] flex-col  items-center">
           <FontAwesomeIcon icon={faShoppingBag} className="mr-2 items-center text-center" />
           <p className="text-[13px] pt-2">Your Bag</p>
           <p className="text-[13px]">0</p>
