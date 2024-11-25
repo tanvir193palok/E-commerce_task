@@ -5,7 +5,7 @@ const Collection = ({ isMan }) => {
     <div className="w-[340px] lg:w-[1280px] h-[357px] lg:h-[614px] mx-4 lg:mx-28 mt-16 mb-24 lg:mb-6">
       <div className=" flex flex-col lg:flex-row items-center justify-between relative overflow-visible">
         {/* Image Section */}
-        <div className="w-[350px] lg:w-[621px] h-[303px] lg:h-[481px] flex items-center justify-center bg-[#EEECFB] lg:mt-[84px] relative">
+        <div className="w-[330px] lg:w-[621px] h-[303px] lg:h-[481px] flex items-center justify-center bg-[#EEECFB] lg:mt-[84px] relative">
           <Image
             src={isMan ? "/man.png" : "/woman.png"}
             alt="man"
