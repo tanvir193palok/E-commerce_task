@@ -4,7 +4,7 @@ import Bars from "./Bars";
 
 const Rating = () => {
   return (
-    <div className="w-[350px] lg:w-[441px] h-[246px] lg:h-[266px] order-1 lg:order-none">
+    <div className="w-[350px] lg:w-[441px] h-[246px] lg:h-[266px] order-1 lg:order-none ">
       <div className="flex mb-2">
         <p className="text-[16px] font-semibold">Product Review</p>
         <p className="text-primary ml-16">121 reviews</p>
