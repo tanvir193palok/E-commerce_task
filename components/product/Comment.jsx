@@ -5,7 +5,7 @@ import { faThumbsUp } from "@fortawesome/free-regular-svg-icons";
 
 const Comment = () => {
   return (
-    <div className="w-[350px] lg:w-[845px] h-[121px] gap-[15px]">
+    <div className="w-[350px] lg:w-[845px] h-[121px]">
       <div className="flex">
         <Image
           src="/ProductPage/user.png"
