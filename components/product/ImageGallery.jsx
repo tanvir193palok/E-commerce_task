@@ -8,11 +8,11 @@ const ImageGallery = () => {
 
   return (
     <div>
-      <div className="relative w-[350px] lg:w-[628px] h-[280px] lg:h-[519px]">
+      <div className="relative w-[350px] lg:w-[628px] h-[280px] lg:h-[519px] bg-[#F6F5FD]">
         <Image
           src={product.images[0]}
           alt={`Main view of ${product.name}`}
-          className="rounded-[8px] lg:rounded-[16px] w-[320px] lg:w-[588px] h-[280px] lg:h-[519px] bg-[#F6F5FD]"
+          className="rounded-[8px] lg:rounded-[16px] w-[320px] lg:w-[588px] h-[280px] lg:h-[519px]"
           width={400}
           height={400}
         />
