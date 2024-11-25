@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Offer = () => {
   return (
-    <div className="w-[360px] lg:w-[1280px] h-[633px] lg:h-[450px] bg-[#EEECFB] mx-4 lg:mx-28 my-2 flex flex-col lg:flex-row justify-center items-center lg:justify-between px-[75px] overflow-hidden">
+    <div className="w-[360px] lg:w-[1280px] h-[633px] lg:h-[450px] bg-[#EEECFB] px-4 lg:mx-28 my-2 flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:px-[75px] overflow-hidden">
       {/* Text */}
       <div className="flex-1 mt-10 lg:mt-0 px-6 text-center lg:text-left">
         <p className="text-[24px] font-primary text-primary">Big Deal</p>
