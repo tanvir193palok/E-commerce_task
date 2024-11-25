@@ -5,7 +5,7 @@ import { NewArrivalData } from "@/lib";
 
 const RelatedProducts = () => {
   return (
-    <div className="px-4 lg:px-28 my-10">
+    <div className="px-4 lg:px-28 my-16">
       <div className="flex justify-between items-center">
         <div>
           <p className="text-[28px] font-bold text-[#1D1D1D] pb-3">
